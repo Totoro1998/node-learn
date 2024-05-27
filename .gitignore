@@ -1,5 +1,5 @@
 .DS_Store
-全局对象/node_modules
+node_modules
 yarn.lock
 /dist
 /test_cache
