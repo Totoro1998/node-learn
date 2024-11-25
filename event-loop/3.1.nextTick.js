@@ -9,3 +9,7 @@ setTimeout(() => {
 setTimeout(() => {
   console.log("setTimeout2");
 }, 0);
+
+// nextTick
+// setTimeout1
+// setTimeout2

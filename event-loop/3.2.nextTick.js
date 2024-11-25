@@ -1,9 +1,10 @@
 const fs = require("fs");
-/* TODO: 阻塞 I/O 情况 */
+
+// process.nextTick会阻塞IO
 process.nextTick(() => {
   const now = +new Date();
-  /* 阻塞代码三秒钟 */
-  while (+new Date() < now + 3000) {}
+  /* 阻塞代码100毫秒 */
+  while (+new Date() < now + 100) {}
 });
 
 fs.readFile("./test.txt", () => {
@@ -13,3 +14,6 @@ fs.readFile("./test.txt", () => {
 setTimeout(() => {
   console.log("setTimeout: ");
 }, 0);
+
+// setTimeout:
+// I/O: file
