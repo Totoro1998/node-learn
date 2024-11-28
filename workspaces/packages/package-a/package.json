@@ -1,18 +1,16 @@
 {
-  "name": "workspaces",
+  "name": "package-a",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "dayjs": "^1.11.13"
   }
 }

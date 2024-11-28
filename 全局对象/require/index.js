@@ -1,9 +1,9 @@
-// console.log(require);
+console.log(require);
 
-// console.log(require.cache);
+console.log(require.cache);
 
-// console.log(require.resolve("dotenv"));
+console.log(require.resolve("../process/process.js"));
 
-// console.log(require.main);
+console.log(require.main);
 
-// console.log(require.extensions);
+console.log(require.extensions); // 已被弃用

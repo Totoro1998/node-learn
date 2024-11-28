@@ -1,18 +1,16 @@
 {
-  "name": "workspaces",
+  "name": "package-b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "moment": "^2.30.1"
   }
 }
